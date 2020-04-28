@@ -310,7 +310,7 @@ var payment_data = {
 
 mercadopago.payment.save(payment_data).then(function (data) {
       console.log(data);
-      res.send(data);
+      // res.send(data);
     }).catch(function (error) {
       console.log(error);
     });
